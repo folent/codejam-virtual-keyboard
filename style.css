@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+
+
+}
+.keyboard-body {
+	border: 1px solid grey;
+	width: 710px;
+	background-color: lightgrey;
+	user-select: none;
+	
+	}
+
+.key {
+	min-width: 40px;
+	height: 100%;
+	background-color: grey;
+	padding: 8px;
+	text-align: center;
+	border-radius: 2px;
+	user-select: none;
+}
+ 
+.keyboard-key{
+	margin-left: 4px;
+
+}
+.row {
+	margin-bottom: 5px;
+	padding-top: 5px; 
+	user-select: none;
+}
+.keyboard-row{
+	width: 700px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	user-select: none;
+}
+
+.info {
+	border: 1px solid grey;
+	background-color: darkgray;
+}
+button {
+	user-select: none;
+}
+.active {
+	background-color: greenyellow;
+}
+
+.Backspace,.Enter,.CapsLock{
+	width: 100px;
+}
+.ShiftRight{
+	width: 87px;
+}
+.ShiftLeft {
+	width: 100px;
+}
+.Tab {
+	width: 55px;
+}
+.Space {
+	width: 320px;
+	height: 36px;
+}
+.hidden {
+	display: none;
+}
